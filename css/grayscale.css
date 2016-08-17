@@ -31,7 +31,7 @@ p {
   font-size: 18px;
   line-height: 1.5;
   font-family: Avenir;
-  
+
 }
 @media (min-width: 768px) {
   p {
@@ -41,11 +41,12 @@ p {
   }
 }
 a {
-  color: #42DCA3;
+  color: #ffcce6;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
+
 a:hover,
 a:focus {
   text-decoration: none;
@@ -62,7 +63,6 @@ a:focus {
   background-color: black;
 }
 .navbar-custom .navbar-toggle {
-  color: white;
   background-color: rgba(255, 255, 255, 0.2);
   font-size: 12px;
 }
@@ -71,7 +71,9 @@ a:focus {
   outline: none;
 }
 .navbar-custom .navbar-brand {
-  font-weight: 700;
+  font-weight: 600;
+  color: #cc0099;
+  /**text-shadow: 0px 0px 2px #ffffff;**/
 }
 .navbar-custom .navbar-brand:focus {
   outline: none;
@@ -238,13 +240,33 @@ a:focus {
   width: 100%;
   padding: 50px 0;
   color: white;
-  text-shadow: 0px 0px 3px #000;
-  background: url(../img/dso.jpg) no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+}
+.cs-section{
+  width: 100%;
+  padding: 50px 0;
+  color: white;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.about-section{
+  width: 100%;
+  padding: 50px 0;
+  color: white;
+  /** text-shadow: 0px 0px 3px #000;
+  background: url(../img/dso.jpg) no-repeat center center scroll; **/
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover; 
 }
 #map {
   width: 100%;
@@ -273,16 +295,16 @@ a:focus {
   border-radius: 0;
 }
 .btn-default {
-  border: 1px solid #42DCA3;
-  color: #42DCA3;
+  border: 1px solid #ffcce6;
+  color: #ffcce6;
   background-color: transparent;
 }
 .btn-default:hover,
 .btn-default:focus {
-  border: 1px solid #42DCA3;
+  border: 1px solid #ffcce6;
   outline: none;
   color: black;
-  background-color: #42DCA3;
+  background-color: #ffcce6;
 }
 ul.banner-social-buttons {
   margin-top: 0;
