@@ -229,8 +229,8 @@ a:focus {
   padding: 50px 0;
   color: white;
   text-shadow: 0px 0px 3px #000;
-  background: url(../img/immuno.jpg) no-repeat center center scroll;
-  background-color: black;
+/*  background: url(../img/immuno.jpg) no-repeat center center scroll;
+*/  background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
